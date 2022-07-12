@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".admin.fragments.EditProductFragment">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Product"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline35"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline34"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="16dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="16dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="16dp"
+            android:text="Product name"
+            android:textColor="#80000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline35"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline34"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+        <EditText
+            android:id="@+id/txtNewProName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/text_field_selector"
+            android:ems="10"
+            android:hint="new product"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline35"
+            app:layout_constraintStart_toStartOf="@+id/guideline34"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="24dp"
+            android:text="Product Price"
+            android:textColor="#80000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline35"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline34"
+            app:layout_constraintTop_toBottomOf="@+id/txtNewProName" />
+
+        <EditText
+            android:id="@+id/txtNewProPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/text_field_selector"
+            android:ems="10"
+            android:hint="299"
+            android:inputType="numberDecimal"
+            android:padding="15dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline35"
+            app:layout_constraintStart_toStartOf="@+id/guideline34"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="24dp"
+            android:text="Product Description"
+            android:textColor="#80000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline35"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline34"
+            app:layout_constraintTop_toBottomOf="@+id/txtNewProPrice" />
+
+        <EditText
+            android:id="@+id/txtNewProDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/text_field_selector"
+            android:ems="10"
+            android:gravity="start"
+            android:hint="product specifies / or other ..."
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:padding="15dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline35"
+            app:layout_constraintStart_toStartOf="@+id/guideline34"
+            app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnChooseNewImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_sign"
+            android:padding="10dp"
+            android:text="Choose new image"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageDisplay"
+            app:layout_constraintEnd_toStartOf="@+id/guideline35"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageDisplay"
+            app:layout_constraintTop_toTopOf="@+id/imageDisplay" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSaveAllEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_sign"
+            android:padding="15dp"
+            android:text="Save All"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline35"
+            app:layout_constraintStart_toStartOf="@+id/guideline34"
+            app:layout_constraintTop_toBottomOf="@+id/imageDisplay" />
+
+        <TextView
+            android:id="@+id/txtErrorNewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:text="Error"
+            android:textColor="#ff0000"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@+id/guideline34"
+            app:layout_constraintTop_toBottomOf="@+id/txtNewProName" />
+
+        <TextView
+            android:id="@+id/txtErrorNewPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:text="Error"
+            android:textColor="#ff0000"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@+id/guideline34"
+            app:layout_constraintTop_toBottomOf="@+id/txtNewProPrice" />
+
+        <TextView
+            android:id="@+id/newImageSaved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableEnd="@drawable/ic_cloud_done"
+            android:drawablePadding="5dp"
+            android:text="Saved"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/btnChooseNewImage"
+            app:layout_constraintStart_toStartOf="@+id/btnChooseNewImage"
+            app:layout_constraintTop_toBottomOf="@+id/btnChooseNewImage" />
+
+        <ImageView
+            android:id="@+id/imageDisplay"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toStartOf="@+id/btnChooseNewImage"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="@+id/guideline34"
+            app:layout_constraintTop_toBottomOf="@+id/txtNewProDesc"
+            tools:srcCompat="@tools:sample/avatars" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

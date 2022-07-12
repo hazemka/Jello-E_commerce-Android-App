@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Jello/app/src/main/res/drawable/background.xml" value="0.126" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/bottom_nav.xml" value="0.126" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/botton_plus_min.xml" value="0.1235" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/btn_not.xml" value="0.126" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/btn_sign.xml" value="0.1035" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/dot.xml" value="0.1035" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/dot_disabled.xml" value="0.1035" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/ic_add.xml" value="0.188" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/ic_add_cart.xml" value="0.1845" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/ic_add_photo.xml" value="0.1845" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/ic_arrow_back.xml" value="0.188" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/ic_arrow_back_white.xml" value="0.1845" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/ic_arrow_right.xml" value="0.188" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/ic_baseline_location_off_24.xml" value="0.1845" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/ic_before.xml" value="0.1035" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/ic_delete.xml" value="0.188" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/ic_edit.xml" value="0.1845" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/ic_next.xml" value="0.1035" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/ic_outline_category.xml" value="0.188" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/ic_person.xml" value="0.188" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/ic_product.xml" value="0.188" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/ic_search.xml" value="0.188" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/ic_star.xml" value="0.1235" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/image_in_cart.xml" value="0.1235" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/layout_user_white.xml" value="0.126" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/search_shape.xml" value="0.126" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/text_field.xml" value="0.126" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/text_field_error.xml" value="0.126" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/text_field_focuse.xml" value="0.126" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/text_field_selector.xml" value="0.126" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/user_dot.xml" value="0.126" />
+        <entry key="..\:/Jello/app/src/main/res/drawable/user_dot_not.xml" value="0.126" />
+        <entry key="..\:/Jello/app/src/main/res/layout-v26/add_category_dialog.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/layout/activity_admin.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Jello/app/src/main/res/layout/activity_main2.xml" value="0.20104166666666667" />
+        <entry key="..\:/Jello/app/src/main/res/layout/activity_map_admin.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/layout/activity_maps.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/layout/activity_sign_in_sign_up.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/layout/activity_user.xml" value="0.2" />
+        <entry key="..\:/Jello/app/src/main/res/layout/add_category_dialog.xml" value="0.4" />
+        <entry key="..\:/Jello/app/src/main/res/layout/card_item_scroll.xml" value="0.536" />
+        <entry key="..\:/Jello/app/src/main/res/layout/category_all_item.xml" value="0.4" />
+        <entry key="..\:/Jello/app/src/main/res/layout/category_item.xml" value="0.72" />
+        <entry key="..\:/Jello/app/src/main/res/layout/choose_image.xml" value="0.536" />
+        <entry key="..\:/Jello/app/src/main/res/layout/content_sign_in_sign_up.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/layout/dialog_common.xml" value="0.4" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_add_product.xml" value="0.44166666666666665" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_cart.xml" value="0.4" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_category.xml" value="0.264" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_confirm_code.xml" value="0.4" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_edit_product.xml" value="0.4371508379888268" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_edit_user_profile.xml" value="0.536" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_first.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_forgot_pass.xml" value="0.264" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_home2.xml" value="0.4" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_more_admin.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_more_user.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_product.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_product_admin.xml" value="0.4" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_profile.xml" value="0.6" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_reset_password.xml" value="0.536" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_search.xml" value="0.43089430894308944" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_see_all_category.xml" value="0.3851044504995459" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_show_product_details.xml" value="0.3602378929481733" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_show_product_user.xml" value="0.4" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_sign_in.xml" value="0.536" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_sign_up.xml" value="0.4" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_welcome_first.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_welcome_three.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/layout/fragment_welcome_two.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/layout/horizental_scroll.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/layout/product_admin_item.xml" value="0.6" />
+        <entry key="..\:/Jello/app/src/main/res/layout/product_in_card.xml" value="0.536" />
+        <entry key="..\:/Jello/app/src/main/res/layout/product_in_cart.xml" value="0.536" />
+        <entry key="..\:/Jello/app/src/main/res/layout/product_item.xml" value="0.5032154340836013" />
+        <entry key="..\:/Jello/app/src/main/res/layout/product_item_two.xml" value="0.6" />
+        <entry key="..\:/Jello/app/src/main/res/layout/slide_user.xml" value="0.4860248447204969" />
+        <entry key="..\:/Jello/app/src/main/res/layout/welcome_content.xml" value="0.176" />
+        <entry key="..\:/Jello/app/src/main/res/menu/admin_menu.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/menu/cart_choices_menu.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/menu/category_menu.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/menu/edit_product_menu.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/menu/menu.xml" value="0.22083333333333333" />
+        <entry key="..\:/Jello/app/src/main/res/menu/search_menu.xml" value="0.165625" />
+        <entry key="..\:/Jello/app/src/main/res/menu/user_menu.xml" value="0.22083333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

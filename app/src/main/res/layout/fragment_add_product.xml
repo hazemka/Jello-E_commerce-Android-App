@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".admin.fragments.AddProductFragment">
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="16dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="16dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Product"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline33"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline32"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="16dp"
+            android:text="Product name"
+            android:textColor="#80000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline33"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline32"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <EditText
+            android:id="@+id/txtProductName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/text_field_selector"
+            android:ems="10"
+            android:hint="new product"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline33"
+            app:layout_constraintStart_toStartOf="@+id/guideline32"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="24dp"
+            android:text="Product Price"
+            android:textColor="#80000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline33"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline32"
+            app:layout_constraintTop_toBottomOf="@+id/txtProductName" />
+
+        <EditText
+            android:id="@+id/txtProductPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/text_field_selector"
+            android:ems="10"
+            android:hint="200.00"
+            android:inputType="numberDecimal"
+            android:padding="15dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline33"
+            app:layout_constraintStart_toStartOf="@+id/guideline32"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="24dp"
+            android:text="Product description"
+            android:textColor="#80000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline33"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline32"
+            app:layout_constraintTop_toBottomOf="@+id/txtProductPrice" />
+
+        <EditText
+            android:id="@+id/txtProductDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/text_field_selector"
+            android:ems="10"
+            android:gravity="start"
+            android:hint="product specifies / or other ..."
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:padding="15dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline33"
+            app:layout_constraintStart_toStartOf="@+id/guideline32"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnChooseImage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/btn_sign"
+            android:padding="10dp"
+            android:text="Choose image"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/btnSelectLocation"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="@+id/guideline32"
+            app:layout_constraintTop_toBottomOf="@+id/txtProductDesc" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSelectLocation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/btn_sign"
+            android:padding="10dp"
+            android:text="Select location"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline33"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnChooseImage"
+            app:layout_constraintTop_toBottomOf="@+id/txtProductDesc" />
+
+        <TextView
+            android:id="@+id/savedImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawablePadding="5dp"
+            android:text="Saved"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            android:visibility="gone"
+            app:drawableEndCompat="@drawable/ic_cloud_done"
+            app:layout_constraintEnd_toEndOf="@+id/btnChooseImage"
+            app:layout_constraintStart_toStartOf="@+id/guideline32"
+            app:layout_constraintTop_toBottomOf="@+id/btnChooseImage" />
+
+        <TextView
+            android:id="@+id/savedLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawablePadding="5dp"
+            android:text="Saved"
+            android:textColor="@color/text_color"
+            android:textSize="16sp"
+            android:visibility="gone"
+            app:drawableEndCompat="@drawable/ic_cloud_done"
+            app:layout_constraintEnd_toStartOf="@+id/guideline33"
+            app:layout_constraintStart_toStartOf="@+id/btnSelectLocation"
+            app:layout_constraintTop_toBottomOf="@+id/btnSelectLocation" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAddProduct"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_sign"
+            android:padding="15dp"
+            android:text="Save All"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline33"
+            app:layout_constraintStart_toStartOf="@+id/guideline32"
+            app:layout_constraintTop_toBottomOf="@+id/savedLocation" />
+
+        <TextView
+            android:id="@+id/txtNameError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:text="Error"
+            android:textColor="#ff0000"
+            android:visibility="gone"
+            app:layout_constraintEnd_toStartOf="@+id/guideline33"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline32"
+            app:layout_constraintTop_toBottomOf="@+id/txtProductName" />
+
+        <TextView
+            android:id="@+id/txtPriceError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:text="Error"
+            android:textColor="#ff0000"
+            android:visibility="gone"
+            app:layout_constraintEnd_toStartOf="@+id/guideline33"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline32"
+            app:layout_constraintTop_toBottomOf="@+id/txtProductPrice" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
